@@ -15,12 +15,10 @@ public abstract class StudentAbstract {
 	{
 		System.out.println("Non Abstract");
 	}
+	public abstract  void sname();
 	
-	public static void main(String[] args) {
-
-		StudentAbstract n=new StudentAbstract();
-		n.method1();
-		
+	{
+		System.out.println("Praveen");
 	}
 
 }
